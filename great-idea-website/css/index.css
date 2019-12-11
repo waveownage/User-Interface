@@ -59,27 +59,41 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 /* Your code starts here! */
+header nav {
+	display: inline-block;
+	width: 80%;
+	vertical-align: top;
+	margin-top: 35px;
+  }
+  
 header nav a {
-  display: inline-block;
-  margin-top: 3%;
-  margin-right: 2%;
-  margin-left: 4%;
-  font-size: 14px; 
-  color: gray;
-  text-decoration: none;
-}
+	display: inline-block;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+	padding-right: 45px;
+	margin-left: 23px
+  }
 header .logo {
-  display: inline-block;
-  margin-top:4%
+  margin-top: 25px;
+  display: incline-block;
+}
+header .top {
+	display: inline-block;
+	width: 10%;
+	vertical-align: top;
+}
+.section1 {
+	padding-top: 50px;
 }
 .section1 .section1text {
   display: inline-block;
   vertical-align: top;
   font-size: 40px;
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: 200px;
   text-align: center;
-  padding: 2% 2%;
+  padding-right: 100px
 }
 button {
   background-color: white;
@@ -89,7 +103,8 @@ button {
   padding: 0.5% 1%;
 }
 .section1 img {
-  display: inline-block
+  display: inline-block;
+  padding-top: 30px
 }
 .section2top {
   border-top: 1px solid black;
@@ -101,8 +116,23 @@ button {
   display: inline-block;
   padding: 2%
 }
-.section2bottom h2{
-  
+.section2bottomtext {
+  display: inline-block;
+  width: 33%;
+  padding: 2%;
 }
+.contact {
+  padding: 2%;
+  border-top: 1px solid black;
+}
+footer {
+  text-align: center;
+}
+.middle-img {
+margin-left: 23px;
+width: 100%;
+margin-right: 23px;
+}
+
 
 
