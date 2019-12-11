@@ -19,7 +19,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: font-family: 'Cherry Bomb', cursive;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -51,19 +51,22 @@ table {
 }
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Cherry Bomb', cursive;
 }
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Cherry Bomb', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 /* Your code starts here! */
 header nav {
 	display: inline-block;
-	width: 80%;
+	width: 65%;
 	vertical-align: top;
 	margin-top: 35px;
+	position: fixed; 
+	top: 0;
+	background-color: pink;
   }
   
 header nav a {
@@ -72,11 +75,17 @@ header nav a {
 	color: gray;
 	text-decoration: none;
 	padding-right: 45px;
-	margin-left: 23px
+	margin-left: 23px;	
   }
+a:hover {
+	transition: 0.4s;
+    color: #ffffff;
+}
+
 header .logo {
   margin-top: 25px;
   display: incline-block;
+  padding-left: 70%
 }
 header .top {
 	display: inline-block;
@@ -101,6 +110,10 @@ button {
   border: 1px solid black;
   width: 50%;
   padding: 0.5% 1%;
+}
+button:hover {
+	transition: 0.4s;
+    color: green;
 }
 .section1 img {
   display: inline-block;
