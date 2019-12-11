@@ -64,3 +64,17 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+nav a {
+	display: inline-block;
+	width: 10%;
+	text-align: left;
+	text-decoration: none;
+	color: grey;
+}
+nav {
+	margin-left: 5%;
+}
+.logo {
+	float: right; 
+	margin: 15px 15px 15px 15px;
+}
