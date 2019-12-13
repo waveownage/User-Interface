@@ -1,8 +1,7 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+\/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,7 +19,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: font-family: 'Cherry Bomb', cursive;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -46,21 +45,107 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Cherry Bomb', cursive;
 }
-
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Cherry Bomb', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Your code starts here! */
+header nav {
+	display: inline-block;
+	width: 65%;
+	vertical-align: top;
+	margin-top: 35px;
+	position: fixed; 
+	top: 0;
+	background-color: pink;
+  }
+  
+header nav a {
+	display: inline-block;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+	padding-right: 45px;
+	margin-left: 23px;	
+  }
+a:hover {
+	transition: 0.4s;
+    color: #ffffff;
+}
+
+header .logo {
+  margin-top: 25px;
+  display: incline-block;
+  padding-left: 70%
+}
+header .top {
+	display: inline-block;
+	width: 10%;
+	vertical-align: top;
+}
+.section1 {
+	padding-top: 50px;
+}
+.section1 .section1text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 40px;
+  margin-top: 5%;
+  margin-left: 200px;
+  text-align: center;
+  padding-right: 100px
+}
+button {
+  background-color: white;
+  font-size: 14px;
+  border: 1px solid black;
+  width: 50%;
+  padding: 0.5% 1%;
+}
+button:hover {
+	transition: 0.4s;
+    color: green;
+}
+.section1 img {
+  display: inline-block;
+  padding-top: 30px
+}
+.section2top {
+  border-top: 1px solid black;
+  margin-top: 5%;
+  padding-top: 5%;
+}
+.section2toptext {
+  width: 49%;
+  display: inline-block;
+  padding: 2%
+}
+.section2bottomtext {
+  display: inline-block;
+  width: 33%;
+  padding: 2%;
+}
+.contact {
+  padding: 2%;
+  border-top: 1px solid black;
+}
+footer {
+  text-align: center;
+}
+.middle-img {
+margin-left: 23px;
+width: 100%;
+margin-right: 23px;
+}
+
+
+
